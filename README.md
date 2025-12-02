@@ -1,46 +1,79 @@
-# 🧪 Selenium Java UI Tests with Allure Report
+🧪 Selenium Java UI Automation Tests with Allure Reporting
 
-This project demonstrates automated UI testing using Selenium WebDriver with Java, TestNG, and Allure Reports.
+This project contains automated UI tests implemented using Java, Selenium WebDriver, TestNG, Maven, and Allure Reports, with GitHub Actions CI for continuous integration.
 
-## ⚙️ Technologies
+The framework follows industry-standard automation practices (POM, reusable utilities, structured test suites).
 
-- Java 17
-- Selenium WebDriver
-- TestNG
-- Maven
-- Allure Report
-- GitHub Actions (CI)
+⚙️ Tech Stack
 
-## 🚀 How to Run Tests Locally
+Java 17
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DaryaRamirez/selenium-java-tests-allure.git
-   cd selenium-java-tests-allure
-Run tests using Maven:
+Selenium WebDriver
 
-bash
-Copy code
+TestNG
+
+Maven
+
+Allure Report
+
+GitHub Actions (CI/CD)
+
+Page Object Model (POM)
+
+🚀 How to Run Tests Locally
+1️⃣ Clone the repository
+git clone https://github.com/DaryaRamirez/selenium-java-tests-allure.git
+cd selenium-java-tests-allure
+
+2️⃣ Run tests using Maven
 mvn clean test
-Generate Allure Report:
 
-bash
-Copy code
+3️⃣ Generate Allure report
 allure serve allure-results
-⚠️ Make sure you have Allure CLI installed:
+
+
+⚠️ Make sure Allure CLI is installed:
 https://docs.qameta.io/allure/#_installing_a_commandline
 
-✅ Test Scenario
-Login Test:
-Verifies that a user can log in with valid credentials.
+🧩 Implemented Test Scenarios
+🔐 Login Test
 
-🔄 Continuous Integration
-This project uses GitHub Actions to run tests automatically on every push to main.
+Validates successful login using valid credentials
 
-📸 Sample Report
-Allure generates interactive reports with test steps and screenshots.
+Verifies UI elements, navigation, and system responses
+
+Includes before/after hooks, screenshots, and detailed steps in Allure
+
+🔄 Continuous Integration (GitHub Actions)
+
+The CI workflow:
+
+Runs tests on every push and pull request
+
+Generates Allure results
+
+Ensures code stability and fast feedback
+
+Demonstrates ability to run tests in cloud CI without local setup
+
+📸 Sample Allure Report
+
+Allure generates:
+
+Interactive test history
+
+Screenshots on failure
+
+Step-by-step execution logs
+
+Attachments & environment details
+
+(You can add a screenshot here if you want — это усилит проект 🎯)
 
 👩‍💻 Author
+
 Darya Ramirez
 QA Automation Engineer
-LinkedIn — www.linkedin.com/in/daryaramirez7
+LinkedIn: https://www.linkedin.com/in/daryaramirez7
+
+GitHub: https://github.com/DaryaRamirez
