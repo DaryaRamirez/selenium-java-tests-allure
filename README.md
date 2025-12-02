@@ -21,8 +21,10 @@ GitHub Actions (CI/CD)
 Page Object Model (POM)
 
 🚀 How to Run Tests Locally
+
 1️⃣ Clone the repository
 git clone https://github.com/DaryaRamirez/selenium-java-tests-allure.git
+
 cd selenium-java-tests-allure
 
 2️⃣ Run tests using Maven
@@ -33,9 +35,11 @@ allure serve allure-results
 
 
 ⚠️ Make sure Allure CLI is installed:
+
 https://docs.qameta.io/allure/#_installing_a_commandline
 
 🧩 Implemented Test Scenarios
+
 🔐 Login Test
 
 Validates successful login using valid credentials
@@ -68,12 +72,12 @@ Step-by-step execution logs
 
 Attachments & environment details
 
-(You can add a screenshot here if you want — это усилит проект 🎯)
 
 👩‍💻 Author
 
 Darya Ramirez
 QA Automation Engineer
+
 LinkedIn: https://www.linkedin.com/in/daryaramirez7
 
 GitHub: https://github.com/DaryaRamirez
